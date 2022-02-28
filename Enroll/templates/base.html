@@ -1,0 +1,23 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CRUD Student</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="{% static 'csss/bootstrap.css' %}">
+
+</head>
+
+<body>
+<div class="container mt-5">
+<h2 class="text-center alert alert-danger">Function Based Model View Form</h2>
+{% block content %}  {% endblock content %}
+</div>
+
+<script src="{% static 'jss/bootstrap.js' %}"></script>
+</body>
+</html>
